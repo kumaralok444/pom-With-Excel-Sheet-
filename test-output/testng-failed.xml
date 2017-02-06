@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Testing]">
+  <parameter name="browser" value="Chrome"/>
+  <test name="FirstPgm(failed)">
+    <parameter name="browser" value="Firefox"/>
+    <classes>
+      <class name="pom.ExePageGuru99">
+        <methods>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="testCase" invocation-numbers="0 1 2"/>
+        </methods>
+      </class> <!-- pom.ExePageGuru99 -->
+    </classes>
+  </test> <!-- FirstPgm(failed) -->
+</suite> <!-- Failed suite [Testing] -->

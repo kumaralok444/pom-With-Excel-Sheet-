@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Testing">
+
+	<test name="FirstPgm">
+	
+	<classes>
+	<parameter name="browser" value="Firefox"></parameter>
+		<class name="pom.ExePageGuru99"></class>
+	</classes>
+	</test>
+	
+	<test name="SecondPgm">
+	
+	<classes>
+	<parameter name="browser" value="Chrome"></parameter>
+		<class name="pom.ExePageGuru99"></class>
+	</classes>
+	</test>
+</suite>

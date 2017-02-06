@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Testing" duration-ms="25735" started-at="2017-02-06T13:28:41Z" finished-at="2017-02-06T13:29:06Z">
+    <groups>
+    </groups>
+    <test name="FirstPgm" duration-ms="14985" started-at="2017-02-06T13:28:41Z" finished-at="2017-02-06T13:28:56Z">
+      <class name="pom.ExePageGuru99">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:pom.ExePageGuru99@a3cd93]" name="setUp" is-config="true" duration-ms="7372" started-at="2017-02-06T18:58:41Z" finished-at="2017-02-06T18:58:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testCase(java.lang.String, java.lang.String)[pri:0, instance:pom.ExePageGuru99@a3cd93]" name="testCase" duration-ms="2711" started-at="2017-02-06T18:58:49Z" data-provider="dp" finished-at="2017-02-06T18:58:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Alok]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase -->
+        <test-method status="PASS" signature="testCase(java.lang.String, java.lang.String)[pri:0, instance:pom.ExePageGuru99@a3cd93]" name="testCase" duration-ms="2082" started-at="2017-02-06T18:58:51Z" data-provider="dp" finished-at="2017-02-06T18:58:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sathish]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase -->
+        <test-method status="PASS" signature="testCase(java.lang.String, java.lang.String)[pri:0, instance:pom.ExePageGuru99@a3cd93]" name="testCase" duration-ms="2102" started-at="2017-02-06T18:58:53Z" data-provider="dp" finished-at="2017-02-06T18:58:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase -->
+      </class> <!-- pom.ExePageGuru99 -->
+    </test> <!-- FirstPgm -->
+    <test name="SecondPgm" duration-ms="10737" started-at="2017-02-06T13:28:56Z" finished-at="2017-02-06T13:29:06Z">
+      <class name="pom.ExePageGuru99">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:pom.ExePageGuru99@d4bf7e]" name="setUp" is-config="true" duration-ms="3326" started-at="2017-02-06T18:58:56Z" finished-at="2017-02-06T18:58:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testCase(java.lang.String, java.lang.String)[pri:0, instance:pom.ExePageGuru99@d4bf7e]" name="testCase" duration-ms="2510" started-at="2017-02-06T18:58:59Z" data-provider="dp" finished-at="2017-02-06T18:59:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Alok]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase -->
+        <test-method status="PASS" signature="testCase(java.lang.String, java.lang.String)[pri:0, instance:pom.ExePageGuru99@d4bf7e]" name="testCase" duration-ms="2432" started-at="2017-02-06T18:59:01Z" data-provider="dp" finished-at="2017-02-06T18:59:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sathish]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase -->
+        <test-method status="PASS" signature="testCase(java.lang.String, java.lang.String)[pri:0, instance:pom.ExePageGuru99@d4bf7e]" name="testCase" duration-ms="2431" started-at="2017-02-06T18:59:04Z" data-provider="dp" finished-at="2017-02-06T18:59:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase -->
+      </class> <!-- pom.ExePageGuru99 -->
+    </test> <!-- SecondPgm -->
+  </suite> <!-- Testing -->
+</testng-results>
